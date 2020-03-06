@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#background {
+    background-image: radial-gradient(#634F59, #43323A);
+    display: inline-block;
+}
+
+p {
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.header {
+    background-color: #F9F9F9;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile_picture {
+    border: 5px solid grey;
+    vertical-align: top;
+    display: inline-block;
+    margin: 20px 0px 0px 20px
+}
+
+/* #profile_picture {
+    width: 300px;
+    border:
+} */
+
+#about {
+    display: inline-block;
+    width: 48%;
+    background: linear-gradient(to right, #FFFFFF, #D5C6D4);
+    margin: 20px 0px 20px 20px;
+}
+
+.projects {
+    width: 32%;
+    display: inline-block;
+    background: linear-gradient(to right, #FFFFFF, #D5C6D4);
+    vertical-align: top;
+}
+
+.container_head {
+    color: white;
+    background: linear-gradient(#AAAAAD, #7B7A88, #AAAAAD);
+}
+
+.container_head h3 {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#icons {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.linkbutton {
+    margin-left: 35%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: green;
+    border-radius: 20px;
+    padding: 13px;
+    color: white;
+}
+
+.contactinfo {
+    text-align: center;
+}

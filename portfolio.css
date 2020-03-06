@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#background {
+    background-color: linear-gradient(#4C3D44, #66565F, #6B5A63, #66565F, #4C3D44);
+}
+
+#header {
+    width: auto;
+    background-color: #F9F9F9;
+    margin-bottom: 20px;
+}
+
+.inline {
+    display: inline-block;
+    display: flex;
+}
+
+#about {}
+
+#main_content {
+    /* height: 400px;
+    width: 665px;
+    background-color: red;
+    display: inline-block; */
+}
+
+#advertisement {
+    min-height: 100px;
+    width: 609px;
+    background-color: purple;
+    vertical-align: right;
+    display: inline-block;
+    margin: 15px 5px;
+}
+
+/* #header {
+    background-color: #F2F2F2;
+    color: black;
+    display: inline;
+}
+
+#shift {
+    text-align: right;
+}
+
+#about {}
+
+.lamode {}
+
+.technologies {}
+
+.d-i-b {
+    display: inline-block;
+}
+
+.linkbutton {}
+
+.contactinfo {} */
